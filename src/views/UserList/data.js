@@ -13,7 +13,8 @@ export default [
     email: 'umardragneel@gmail.com',
     phone: '+62-812-8762-4622',
     avatarUrl: '/images/avatars/umar.PNG',
-    createdAt: 1555016400000
+    createdAt: 1555016400000,
+    status:'Interview HCM'
   },
   {
     id: uuid(),
@@ -27,7 +28,8 @@ export default [
     email: 'gustiowinata0@gmail.com',
     avatarUrl: '/images/avatars/gusti_square.jpg',
     phone: '+62-812-7004-3477',
-    createdAt: 1555016400000
+    createdAt: 1555016400000,
+    status: 'Interview User'
   },
   {
     id: uuid(),
@@ -41,7 +43,8 @@ export default [
     email: 'williamchans57@gmail.com',
     phone: '+62-897-3726-938',
     avatarUrl: '/images/avatars/wilchan.PNG',
-    createdAt: 1555016400000
+    createdAt: 1555016400000,
+    status: 'Rejected'
   },
   {
     id: uuid(),
@@ -55,7 +58,8 @@ export default [
     email: 'vionigiovanni@gmail.com',
     avatarUrl: '/images/avatars/vioni.PNG',
     phone: '+62-812-9086-9132',
-    createdAt: 1554930000000
+    createdAt: 1554930000000,
+    status: 'Interview User'
   },
   {
     id: uuid(),
@@ -69,7 +73,8 @@ export default [
     email: 'korewarequiemda@gmail.com',
     phone: '972-333-4106',
     avatarUrl: '/images/avatars/avatar_6.png',
-    createdAt: 1554757200000
+    createdAt: 1554757200000,
+    status: 'Rejected'
   },
   {
     id: uuid(),
@@ -83,7 +88,8 @@ export default [
     email: 'kujojo@gmail.com',
     phone: '858-602-3409',
     avatarUrl: '/images/avatars/avatar_1.png',
-    createdAt: 1554670800000
+    createdAt: 1554670800000,
+    status: 'Rejected'
   },
   {
     id: uuid(),
@@ -97,7 +103,8 @@ export default [
     email: 'ava.gregoraci@devias.io',
     avatarUrl: '/images/avatars/avatar_7.png',
     phone: '415-907-2647',
-    createdAt: 1554325200000
+    createdAt: 1554325200000,
+    status: 'Interview HCM'
   },
   {
     id: uuid(),
@@ -111,7 +118,8 @@ export default [
     email: 'emilee.simchenko@devias.io',
     phone: '702-661-1654',
     avatarUrl: '/images/avatars/avatar_8.png',
-    createdAt: 1523048400000
+    createdAt: 1523048400000,
+    status: 'MCU'
   },
   {
     id: uuid(),
@@ -124,7 +132,8 @@ export default [
     },
     email: 'kwak.seong.min@devias.io',
     avatarUrl: '/images/avatars/avatar_9.png',
-    phone: '313-812-8947'
+    phone: '313-812-8947',
+    status: 'Interview HCM'
   },
   {
     id: uuid(),
@@ -138,6 +147,7 @@ export default [
     email: 'merrile.burgett@devias.io',
     phone: '801-301-7894',
     avatarUrl: '/images/avatars/avatar_10.png',
-    createdAt: 1522702800000
+    createdAt: 1522702800000,
+    status: 'Psychological Test'
   }
 ];

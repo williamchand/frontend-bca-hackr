@@ -119,6 +119,7 @@ const UsersTable = props => {
                   <TableCell>Location</TableCell>
                   <TableCell>Phone</TableCell>
                   <TableCell>Registration date</TableCell>
+                  <TableCell>Status</TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
@@ -156,6 +157,9 @@ const UsersTable = props => {
                     <TableCell>{user.phone}</TableCell>
                     <TableCell>
                       {moment(user.createdAt).format('DD/MM/YYYY')}
+                    </TableCell>
+                    <TableCell>
+                      {user.status}
                     </TableCell>
                   </TableRow>
                 ))}

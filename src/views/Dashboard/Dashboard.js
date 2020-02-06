@@ -24,6 +24,7 @@ const Dashboard = () => {
 
   return (
     <div className={classes.root}>
+      <overline>Here where the kanban dashboard should be</overline>
       <Grid
         container
         spacing={4}

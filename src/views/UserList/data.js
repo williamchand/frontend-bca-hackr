@@ -3,84 +3,84 @@ import uuid from 'uuid/v1';
 export default [
   {
     id: uuid(),
-    name: 'Ekaterina Tankova',
+    name: 'Umar Alfaruqi',
     address: {
-      country: 'USA',
-      state: 'West Virginia',
-      city: 'Parkersburg',
-      street: '2849 Fulton Street'
+      country: 'Indonesia',
+      state: 'West Java',
+      city: 'Bandung',
+      street: 'Sekeloa'
     },
-    email: 'ekaterina.tankova@devias.io',
-    phone: '304-428-3097',
-    avatarUrl: '/images/avatars/avatar_3.png',
+    email: 'umardragneel@gmail.com',
+    phone: '+62-812-8762-4622',
+    avatarUrl: '/images/avatars/umar.PNG',
     createdAt: 1555016400000
   },
   {
     id: uuid(),
-    name: 'Cao Yu',
+    name: 'Gusti Winata',
     address: {
-      country: 'USA',
-      state: 'Bristow',
-      city: 'Iowa',
-      street: '1865  Pleasant Hill Road'
+      country: 'Indonesia',
+      state: 'West Java',
+      city: 'Bandung',
+      street: 'Sangkuriang'
     },
-    email: 'cao.yu@devias.io',
-    avatarUrl: '/images/avatars/avatar_4.png',
-    phone: '712-351-5711',
+    email: 'gustiowinata0@gmail.com',
+    avatarUrl: '/images/avatars/gusti_square.jpg',
+    phone: '+62-812-7004-3477',
     createdAt: 1555016400000
   },
   {
     id: uuid(),
-    name: 'Alexa Richardson',
+    name: 'William Chandra',
     address: {
-      country: 'USA',
-      state: 'Georgia',
-      city: 'Atlanta',
-      street: '4894  Lakeland Park Drive'
+      country: 'Indonesia',
+      state: 'DKI Jakarta',
+      city: 'Depok',
+      street: 'Margonda City'
     },
-    email: 'alexa.richardson@devias.io',
-    phone: '770-635-2682',
-    avatarUrl: '/images/avatars/avatar_2.png',
+    email: 'williamchans57@gmail.com',
+    phone: '+62-897-3726-938',
+    avatarUrl: '/images/avatars/wilchan.PNG',
     createdAt: 1555016400000
   },
   {
     id: uuid(),
-    name: 'Anje Keizer',
+    name: 'Vioni Giovanni',
     address: {
-      country: 'USA',
-      state: 'Ohio',
-      city: 'Dover',
-      street: '4158  Hedge Street'
+      country: 'Indonesia',
+      state: 'West Java',
+      city: 'Bandung',
+      street: 'Buah Batu'
     },
-    email: 'anje.keizer@devias.io',
-    avatarUrl: '/images/avatars/avatar_5.png',
-    phone: '908-691-3242',
+    email: 'vionigiovanni@gmail.com',
+    avatarUrl: '/images/avatars/vioni.PNG',
+    phone: '+62-812-9086-9132',
     createdAt: 1554930000000
   },
   {
     id: uuid(),
-    name: 'Clarke Gillebert',
+    name: 'Giorno Giovanna',
     address: {
-      country: 'USA',
-      state: 'Texas',
-      city: 'Dallas',
-      street: '75247'
+      country: 'Italy',
+      state: 'Venice',
+      city: 'Venice',
+      street: 'Il Vento D\'oro'
     },
-    email: 'clarke.gillebert@devias.io',
+    email: 'korewarequiemda@gmail.com',
     phone: '972-333-4106',
     avatarUrl: '/images/avatars/avatar_6.png',
     createdAt: 1554757200000
   },
   {
     id: uuid(),
-    name: 'Adam Denisov',
+    name: 'Kujo Jotaro',
     address: {
-      country: 'USA',
-      state: 'California',
-      city: 'Bakerfield',
-      street: '317 Angus Road'
+      country: 'Japan',
+      state: 'Yokohama',
+      city: 'Tokyo',
+      street: 'Sunda Empire'
     },
-    email: 'adam.denisov@devias.io',
+    email: 'kujojo@gmail.com',
     phone: '858-602-3409',
     avatarUrl: '/images/avatars/avatar_1.png',
     createdAt: 1554670800000

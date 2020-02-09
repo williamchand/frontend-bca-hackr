@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import moment from 'moment';
 import PerfectScrollbar from 'react-perfect-scrollbar';
 import { makeStyles } from '@material-ui/styles';
+import {useHistory} from 'react-router-dom'
 import {
   Card,
   CardActions,
@@ -43,9 +44,8 @@ const useStyles = makeStyles(theme => ({
 
 const UsersTable = props => {
   const { className, users, ...rest } = props;
-
   const classes = useStyles();
-
+  const history = useHistory();
   const [selectedUsers, setSelectedUsers] = useState([]);
   const [rowsPerPage, setRowsPerPage] = useState(10);
   const [page, setPage] = useState(0);
@@ -91,7 +91,9 @@ const UsersTable = props => {
   const handleRowsPerPageChange = event => {
     setRowsPerPage(event.target.value);
   };
-
+  const handleclick = () => {
+    history.push("/account");
+  };
   return (
     <Card
       {...rest}
@@ -127,6 +129,7 @@ const UsersTable = props => {
                   <TableRow
                     className={classes.tableRow}
                     hover
+                    onClick={handleclick}
                     key={user.id}
                     selected={selectedUsers.indexOf(user.id) !== -1}
                   >
@@ -185,7 +188,8 @@ const UsersTable = props => {
 
 UsersTable.propTypes = {
   className: PropTypes.string,
-  users: PropTypes.array.isRequired
+  users: PropTypes.array.isRequired,
+  history: PropTypes.object
 };
 
 export default UsersTable;

@@ -14,7 +14,10 @@ import {
   Settings as SettingsView,
   SignUp as SignUpView,
   SignIn as SignInView,
-  NotFound as NotFoundView
+  NotFound as NotFoundView,
+  Candidate as CandidateView,
+  Kalibrr as KalibrrView,
+  Psychotest as PsychotestView
 } from './views';
 
 const Routes = () => {
@@ -84,6 +87,24 @@ const Routes = () => {
         exact
         layout={MinimalLayout}
         path="/not-found"
+      />
+      <RouteWithLayout
+        component={CandidateView}
+        exact
+        layout={MainLayout}
+        path="/candidate"
+      />
+      <RouteWithLayout
+        component={KalibrrView}
+        exact
+        layout={MainLayout}
+        path="/kalibrrLanding"
+      />
+      <RouteWithLayout
+        component={PsychotestView}
+        exact
+        layout={MainLayout}
+        path="/psychotest"
       />
       <Redirect to="/not-found" />
     </Switch>

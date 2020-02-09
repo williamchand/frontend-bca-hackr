@@ -13,6 +13,7 @@ import {
   Button,
   LinearProgress
 } from '@material-ui/core';
+import { Documents } from 'react-pdf'
 
 const useStyles = makeStyles(theme => ({
   root: {},
@@ -45,6 +46,7 @@ const AccountProfile = props => {
     country: 'Indonesia',
     timezone: 'GTM+7',
     avatar: '/images/avatars/gusti_square.jpg'
+  //  Disini kau ubahin jadi state per user, bikinin yang kau sama umar aja
   };
 
   return (
